@@ -1,8 +1,8 @@
 # Configuration  - you need to configure this to let it work with your Boost Bot
-CONFIG_FILE_PATH = "config/config.yaml"  # Path to the config file (either YAML or JSON)
-STOCK_FILE_PATH_1M = "data/1m.txt"  # Path to 1M token stock file
-STOCK_FILE_PATH_3M = "data/3m.txt"  # Path to 3M token stock file
-ALLOWED_TO_USE_BOOSTXAPI_COMMANDS = ['owners_ids']# fill in the allowed users/roles to use the command or use ['...'].get['...']
+CONFIG_FILE_PATH = ""  # Path to the config file (either YAML or JSON)
+STOCK_FILE_PATH_1M = ""  # Path to 1M token stock file
+STOCK_FILE_PATH_3M = ""  # Path to 3M token stock file
+ALLOWED_TO_USE_BOOSTXAPI_COMMANDS = ['owners']# replace this with your config info the command or use ['...'].get('')
 
 def load_config():
     # Controleer of het bestand bestaat
