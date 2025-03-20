@@ -1,0 +1,3 @@
+api_key: "" # Your BoostX Token API key 
+tokens_to_fetch: 1 # Amount of tokens to fetch
+token_type: "" # token type to fetch 1m/3m (1 Month / 3 Months)
