@@ -9,3 +9,7 @@ This script loads a configuration file (config.yaml) with details like the API k
 This script defines a `/buy_tokens` command for a Discord bot. It allows authorized users to purchase tokens using the BoostX API, verifies if the user has permission, and saves the purchased tokens to a local file. After the transaction, it sends a confirmation message to the user with the details or an error message if something fails.
 
 Make sure you configure everything so it works with your Boost Bot (for Developers)
+
+**get_balance.py**
+
+This scripts fetches the balance of the api thats placed in the config. Make sure you configure everything so it works with your Boost Bot (for Developers)
