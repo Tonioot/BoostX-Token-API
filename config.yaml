@@ -1,6 +1,6 @@
 # For the buy_tokens.py
 boostx_token_api:
-  api_key: "pfOgtydj9VuxKAmgxWhH5mikhgjF3Dn8in9XrP7YvtUbRUImXCHNeTpAz0ueVCwOfobTCXj2oVInnjp0" # Your BoostX Token API Key
+  api_key: "" # Your BoostX Token API Key
 
 # For the fetch.py
 api_key: "" # Your BoostX Token API key 
