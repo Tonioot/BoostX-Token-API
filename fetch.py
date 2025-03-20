@@ -11,7 +11,7 @@ def load_config():
         return {}
 
 def fetch_tokens(api_key, tokens, token_type):
-    url = 'http://127.0.0.1:5000/api_buy_tokens'  # Will be updated soon
+    url = 'http://fi7.bot-hosting.net:20030/api_buy_tokens'  # Will be updated soon
 
 
     # JSON body to send to the server
