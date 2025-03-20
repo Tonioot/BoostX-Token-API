@@ -1,27 +1,27 @@
 import requests
 import yaml
 
-# Laad de configuratie uit config1.yaml
+# Load the config from the config.yaml
 def load_config():
     try:
-        with open('fetch.yaml', 'r') as file:
+        with open('config.yaml', 'r') as file:
             return yaml.safe_load(file)
     except FileNotFoundError:
-        print("fetch.yaml not found.")
+        print("config.yaml not found.")
         return {}
 
 def fetch_tokens(api_key, tokens, token_type):
-    url = 'http://127.0.0.1:5000/api_buy_tokens'  # Dit is het adres van de server
+    url = 'http://127.0.0.1:5000/api_buy_tokens'  # Will be updated soon
 
 
-    # JSON body die we sturen naar de server
+    # JSON body to send to the server
     data = {
         'api_key': api_key,
         'tokens': tokens,
         'token_type': token_type
     }
 
-    # Verstuur het verzoek naar de server
+    # Send the request to the server
     response = requests.post(url, json=data)
 
 
@@ -33,7 +33,7 @@ def fetch_tokens(api_key, tokens, token_type):
 
 
 def main():
-    # Laad de config1.yaml
+    # Load the config.yaml
     config = load_config()
 
     if not config or 'api_key' not in config or 'tokens_to_fetch' not in config or 'token_type' not in config:
@@ -44,7 +44,7 @@ def main():
     tokens_to_fetch = config['tokens_to_fetch']
     token_type = config['token_type']
 
-    # Verstuur de aanvraag om tokens op te halen
+    # Send the request to fetch tokens
     response_data = fetch_tokens(api_key, tokens_to_fetch, token_type)
 
     if 'error' in response_data:
