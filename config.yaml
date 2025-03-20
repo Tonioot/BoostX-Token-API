@@ -1,3 +1,8 @@
+# For the buy_tokens.py
+boostx_token_api:
+  api_key: "pfOgtydj9VuxKAmgxWhH5mikhgjF3Dn8in9XrP7YvtUbRUImXCHNeTpAz0ueVCwOfobTCXj2oVInnjp0" # Your BoostX Token API Key
+
+# For the fetch.py
 api_key: "" # Your BoostX Token API key 
 tokens_to_fetch: 1 # Amount of tokens to fetch
 token_type: "" # token type to fetch 1m/3m (1 Month / 3 Months)
