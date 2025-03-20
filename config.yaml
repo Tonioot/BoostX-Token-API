@@ -1,4 +1,4 @@
-# For the buy_tokens.py
+# For the buy_tokens.py/get_balance.py Add this in your config
 boostx_token_api:
   api_key: "" # Your BoostX Token API Key
 
