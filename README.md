@@ -64,8 +64,6 @@ API-Key: your_api_key
 GET /get_stock
 ```
 
-```
-
 ---
 
 ### 3. **Buy Tokens**
