@@ -59,17 +59,11 @@ API-Key: your_api_key
   }
   ```
 
-### Example Request:
+### Request:
 ```http
 GET /get_stock
 ```
 
-### Example Response:
-```json
-{
-    "1m_tokens": 200,
-    "3m_tokens": 150
-}
 ```
 
 ---
@@ -82,17 +76,17 @@ GET /get_stock
   ```json
   {
       "api_key": "user_api_key",
-      "tokens": 5,
-      "token_type": "1m"
+      "tokens": token amount,
+      "token_type": "token type 1m or 3m"
   }
   ```
 - **Response**:
   ```json
   {
       "message": "Successfully bought {tokens} {token_type} tokens!",
-      "order_id": "{order_Id}",
-      "tokens_delivered": ["dfaasdfafds"],
-      "total_cost": 0.1
+      "order_id": "{order Id}",
+      "tokens_delivered": ["token1"],
+      "total_cost": {total cost of the tokens}
   }
   ```
   
