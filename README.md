@@ -89,37 +89,13 @@ GET /get_stock
 - **Response**:
   ```json
   {
-      "status": "success",
-      "message": "Tokens bought",
-      "invoice_id": "572a3a42-4bc7-4cd7-ba60-8b85929d6b91",
-      "order_id": "572a3a42-4bc7-4cd7-ba60-8b85929d6b91",
+      "message": "Successfully bought {tokens} {token_type} tokens!",
+      "order_id": "{order_Id}",
       "tokens_delivered": ["dfaasdfafds"],
       "total_cost": 0.1
   }
   ```
-
-### Example Request:
-```http
-POST /api_buy_tokens
-Content-Type: application/json
-{
-    "api_key": "user_api_key",
-    "tokens": 5,
-    "token_type": "1m"
-}
-```
-
-### Example Response:
-```json
-{
-    "status": "success",
-    "message": "Tokens bought",
-    "invoice_id": "572a3a42-4bc7-4cd7-ba60-8b85929d6b91",
-    "order_id": "572a3a42-4bc7-4cd7-ba60-8b85929d6b91",
-    "tokens_delivered": ["dfaasdfafds"],
-    "total_cost": 0.1
-}
-```
+  
 
 ---
 
