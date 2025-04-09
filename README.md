@@ -1,7 +1,3 @@
-Understood! Here's the corrected version with the error responses placed directly below the example response and in a smaller format.
-
----
-
 # **BoostX-Token-API Documentation**
 
 ### **Overview**
